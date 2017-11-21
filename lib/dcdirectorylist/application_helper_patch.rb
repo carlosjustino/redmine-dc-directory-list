@@ -20,6 +20,6 @@ module DCDirectoryList::ApplicationHelperPatch
   end
 end
 
-unless ApplicationHelper.include? dcdirectorylist::ApplicationHelperPatch
-  ApplicationHelper.send(:include, dcdirectorylist::ApplicationHelperPatch)
+unless ApplicationHelper.include? DCDirectoryList::ApplicationHelperPatch
+  ApplicationHelper.send(:include, DCDirectoryList::ApplicationHelperPatch)
 end
