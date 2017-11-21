@@ -1,6 +1,6 @@
 en:
-  show_user_owner: Show name of owner user
-  show_date_created: Show date of file
-  show_path: Show path
-  orderby_recents: Order by new/modified files first
+  setting_show_user_owner: Show name of owner user
+  setting_show_date_created: Show date of file
+  setting_show_path: Show path
+  setting_orderby_recents: Order by new/modified files first
   dcdirectorylist_settings_hint: Default settings. Users may override them per session.

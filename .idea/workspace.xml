@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df07ca39-d2e7-44b1-946a-db294bcb8061" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/dcdirectorylist/application_helper_patch.rb" afterPath="$PROJECT_DIR$/lib/dcdirectorylist/application_helper_patch.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application_helper_patch.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application_helper_patch.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dcdirectorylist/application_helper_patch.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -24,7 +26,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pt-BR.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setting_show_user_owner</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -44,11 +71,11 @@
       <list>
         <option value="$PROJECT_DIR$/lib/dc_directory_list.rb" />
         <option value="$PROJECT_DIR$/app/views/settings/_progressive_projects_list.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/init.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/dcdirectorylist/application_helper_patch.rb" />
+        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
       </list>
     </option>
   </component>
@@ -169,6 +196,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Carlosj\redmine\dc_directory_list\config\locales" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -271,7 +303,7 @@
       <option name="presentableId" value="Default" />
       <updated>1511278670466</updated>
       <workItem from="1511278671828" duration="196000" />
-      <workItem from="1511278985446" duration="3701000" />
+      <workItem from="1511278985446" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="#15707 - Criação do plugin&#10;http://projetos01.datacoper.com.br/issues/15707">
       <created>1511280434969</created>
@@ -284,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3897000" />
+    <option name="totallyTimeSpent" value="4323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -343,14 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -422,18 +446,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="96" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/dcdirectorylist/application_helper_patch.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/BR.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
