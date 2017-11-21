@@ -1,28 +1,29 @@
-unless File.basename(File.dirname(__FILE__)) == 'progressive_projects_list'
-  raise "Progressive Project List plugin directory should be 'progressive_projects_list' instead of '#{File.basename(File.dirname(__FILE__))}'"
+unless File.basename(File.dirname(__FILE__)) == 'dc_directory_list'
+  raise "Datacoper Diretectory List plugin directory should be 'dc_directory_list' instead of '#{File.basename(File.dirname(__FILE__))}'"
 end
 
-Redmine::Plugin.register :progressive_projects_list do
-  name 'Progressive Projects List plugin'
-  author 'Dmitry Babenko'
-  description 'Projects List with menus and progress bars.'
-  version '3.0.1'
-  url 'http://stgeneral.github.io/redmine-progressive-projects-list/'
-  author_url 'https://github.com/stgeneral'
+Redmine::Plugin.register :dc_directory_list do
+  name 'Datacoper Diretectory List plugin'
+  author 'Carlos Eduardo Justino'
+  description 'Apresenta listagem de arquivos na pasta.'
+  version '0.0.1'
+  url 'https://github.com/carlosjustino/redmine-dc-directory-list'
+  author_url 'https://github.com/carlosjustino'
   requires_redmine :version_or_higher => '3.0'
 
   settings :default => {
-    'show_project_description'  => false,
-    'show_project_progress'     => true,
-    'show_project_menu'         => false,
-    'show_only_for_my_projects' => false,
-    'show_recent_projects'      => true,
-    'show_project_progress_overview' => ''
-  }, :partial => 'settings/progressive_projects_list'
+    'show_user_owner'   => true,
+    'show_date_created' => true,
+    'show_path'         => true,
+    'orderby_recents'   => true,
+  }, :partial => 'settings/dc_directory_list'
 end
 
-require 'progressive_projects_list'
-require 'progressive/application_helper_patch'
-require 'progressive/projects_helper_patch'
-require 'progressive/projects_list_view_listener'
-require 'progressive/recent_projects_view_listener'
+require 'dc_directory_list'
+require 'dcdirectorylist/application_helper_patch'
+=begin
+
+    require 'dcdirectorylist/projects_helper_patch'
+    require 'dcdirectorylist/projects_list_view_listener'
+    require 'dcdirectorylist/recent_projects_view_listener'
+=end
