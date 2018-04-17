@@ -1,0 +1,44 @@
+
+<%= javascript_include_tag  "https://code.jquery.com/jquery-1.12.4.js", "https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js" %>
+<%= stylesheet_link_tag 'https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css' %>
+<%= javascript_include_tag  "tabela.js", :plugin => 'listdirectory' %>
+
+<div id="telabuscararquivos">
+  <div id="dados">
+    <input type="text" id="qtdSelecionadaField" disabled widh="100%" size="40">
+    <br/>
+    <a href="#" onClick="selecionarTudoPagina()" class="button">Selecionar p&aacute;gina</a>
+    <a href="#" onClick="limparSelecaoPagina()" class="button">Limpar sele&ccedil;&atilde;o p&aacute;gina</a>
+  </div>
+
+  <table id="arquivosservertable" class="display" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Diret&oacute;rio</th>
+        <th>Data Altera&ccedil;&atilde;o</th>
+        <th>Usu&aacute;rio</th>
+      </tr>
+    </thead>
+
+    <tfoot>
+      <tr>
+        <th>Nome</th>
+        <th>Diret&oacute;rio</th>
+        <th>Data Altera&ccedil;&atilde;o</th>
+        <th>Usu&aacute;rio</th>
+      </tr>
+    </tfoot>
+
+    <tbody>
+      <% @arquivosservidor && @arquivosservidor.each do |arq| %>
+        <tr>
+          <td><%= arq.nome %></td>
+          <td><%= arq.diretorio %></td>
+          <td><%= arq.data %></td>
+          <td><%= arq.usuario %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

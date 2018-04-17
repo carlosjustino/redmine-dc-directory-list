@@ -1,0 +1,33 @@
+
+<div id="telaview">
+
+	<h1>Progress</h1>
+
+	<h2>Tarefa #<%= link_to @issue.id, issue_path(id: @issue.id), :onclick => params[:action] == 'show' ? "$('#update').hide(); return false;" : '' %></h2>
+	<div >
+		<table class="list issues">
+			<thead>
+				<tr>
+					<th colspan="4">Arquivos Anexados</th>
+				</tr>
+				<tr>
+					<th>Nome Arquivo</th>
+					<th>Diret&oacute;rio</th>
+					<th>Data Altera&ccedil;&atilde;o</th>
+					<th>Usu&aacute;rio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% @arquivo.each do |arq| %>
+					<tr>
+						<td><%= arq.nome %></td>
+						<td><%= arq.diretorio %></td>
+						<td><%= arq.data %></td>
+						<td><%= arq.usuario %></td>
+					</tr>
+				<% end %>
+			</tbody>
+		</table>
+	</div>
+	
+</div>
