@@ -4,13 +4,13 @@ Este plugin permite listar os arquivos das pastas do Servidor.
 
 ## Funcionalidades
 
-1. Apresentar 
+1. Apresentar
     - Nome do Arquivo
     - Usuário que criou o arquivo
     - Data de criação
     - Tamanho
     - Extensão
-  
+
 2. Filtros
    - Por data
    - Por usuário
@@ -20,7 +20,7 @@ Este plugin permite listar os arquivos das pastas do Servidor.
 ## Installation notes
 
 1. Baixe a ultima versão do plugin [ultima versão](https://github.com/carlosjustino/redmine-dc-directory-list/releases/latest).
-2. Extraia dentro da pasta `<redmine_path>/plugins`. O resultado deve ser `<redmine_path>/plugins/dc_directory_list`.
+2. Extraia dentro da pasta `<redmine_path>/plugins`. O resultado deve ser `<redmine_path>/plugins/listdirectory`.
 3. Reinicie o Redmine.
 
 Agora você conseguira ver o plugin na lista no caminho _Administration -> Plugins_ e poderá configura-lo.

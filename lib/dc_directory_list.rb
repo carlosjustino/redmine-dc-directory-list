@@ -1,2 +1,0 @@
-class DCDirectoryList
-end

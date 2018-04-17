@@ -1,29 +1,20 @@
-unless File.basename(File.dirname(__FILE__)) == 'dc_directory_list'
-  raise "Datacoper Diretectory List plugin directory should be 'dc_directory_list' instead of '#{File.basename(File.dirname(__FILE__))}'"
-end
+require 'redmine'
+require 'listdirectory/hooks.rb'
+require 'socket'
 
-Redmine::Plugin.register :dc_directory_list do
-  name 'Datacoper Diretectory List plugin'
+Redmine::Plugin.register :listdirectory do
+  name 'DC List Directory plugin'
   author 'Carlos Eduardo Justino'
-  description 'Apresenta listagem de arquivos na pasta.'
+  description 'Plugin para o Redmine que permiti selecionar arquivos, granvando em uma tabela por tarefa'
   version '0.0.1'
-  url 'https://github.com/carlosjustino/redmine-dc-directory-list'
-  author_url 'https://github.com/carlosjustino'
-  requires_redmine :version_or_higher => '3.0'
-
-  settings :default => {
-    'show_user_owner'   => true,
-    'show_date_created' => true,
-    'show_path'         => true,
-    'orderby_recents'   => true,
-  }, :partial => 'settings/dc_directory_list'
+  url 'http://www.datacoper.com.br'
+  author_url 'http://carlosjustino.eti.br/'
+  
+  
+  project_module :file_progress_module do
+     permission :view_file_progress, { :listdirectory => [:index, :anexar]}
+  end
+  permission :listdirectory, { :listdirectory => [:index, :anexar] }
 end
 
-require 'dc_directory_list'
-require 'dcdirectorylist/application_helper_patch'
-=begin
 
-    require 'dcdirectorylist/projects_helper_patch'
-    require 'dcdirectorylist/projects_list_view_listener'
-    require 'dcdirectorylist/recent_projects_view_listener'
-=end
