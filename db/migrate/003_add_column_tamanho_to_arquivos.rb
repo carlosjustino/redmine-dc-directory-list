@@ -1,4 +1,4 @@
-class AddColumnTamanhoToArquivo < ActiveRecord::Migration
+class AddColumnTamanhoToArquivos < ActiveRecord::Migration
   def change
     add_column :arquivos, :tamanho, :string
   end

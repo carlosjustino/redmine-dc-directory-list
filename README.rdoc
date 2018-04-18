@@ -1,4 +1,4 @@
-## Datacoper - Redmine Plugin - Lista de arquivos e pastas
+## Datacoper - Redmine Plugin - Anexos do Progress
 
 Este plugin permite listar os arquivos das pastas do Servidor.
 
@@ -7,7 +7,7 @@ Este plugin permite listar os arquivos das pastas do Servidor.
 1. Apresentar
     - Nome do Arquivo
     - Usuário que criou o arquivo
-    - Data de criação
+    - Data de ultima alteração
     - Tamanho
     - Extensão
 
