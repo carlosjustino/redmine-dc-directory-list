@@ -1,6 +1,8 @@
 require 'redmine'
 require 'listdirectory/hooks.rb'
 require 'socket'
+require 'socketprogress'
+
 
 Redmine::Plugin.register :listdirectory do
   name 'DC List Directory plugin'

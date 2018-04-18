@@ -1,10 +1,12 @@
 class ListdirectoryController < ApplicationController
+  include Socketprogress
 
 	def index
 		@issue = Issue.find(params[:issue_id])
-		#@arquivo = Arquivo.listaArquivos('.')
-		#@arquivo = Arquivo.all(:conditions => { 'issue_id' =>  @issue.id})
     @arquivo = Arquivo.where(issue_id: @issue.id).order(nome: :asc)
+    @customFieldCliente = IssueCustomField.find_by_name('Cliente')
+    @clienteprogress = @issue.custom_field_value(@customFieldCliente)
+    @clienteprogress = @customFieldCliente.enumerations.find(@clienteprogress)
 	end
 
 	def show
@@ -13,7 +15,11 @@ class ListdirectoryController < ApplicationController
 
   def buscararquivos
     @issue = Issue.find(params[:issue_id])
-    @arquivosservidor = listaArquivos('.')
+    @arquivosservidor = []
+		@customFieldCliente = IssueCustomField.find_by_name('Cliente')
+		@clienteprogress = @issue.custom_field_value(@customFieldCliente)
+    @clienteprogress = @customFieldCliente.enumerations.find(@clienteprogress)
+    invocaServicoProgress( @clienteprogress.to_s)
   end
 
 	def listaArquivos(pathBusca)
