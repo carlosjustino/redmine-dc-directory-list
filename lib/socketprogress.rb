@@ -1,6 +1,7 @@
 module Socketprogress
 
-    def invocaServicoProgress( cliente)
+    def invocaServicoProgress( paramsocket)
+      cliente = paramsocket[:cliente]
       porta =  getNewPortSocket()
       servico = "FontesDifCliente"
       xmlParam =  montaXmlParametros(cliente)

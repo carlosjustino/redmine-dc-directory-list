@@ -26,7 +26,8 @@ class ListdirectoryController < ApplicationController
 		@customFieldCliente = IssueCustomField.find_by_name('Cliente')
 		@clienteprogress = @issue.custom_field_value(@customFieldCliente)
     @clienteprogress = @customFieldCliente.enumerations.find(@clienteprogress)
-    invocaServicoProgress( @clienteprogress.to_s)
+    paramsocket = params.merge(cliente: @clienteprogress.to_s)
+    invocaServicoProgress(paramsocket)
   end
 
 	def listaArquivos(pathBusca)
