@@ -3,7 +3,7 @@ class ListdirectoryController < ApplicationController
 
 	def index
 		@issue = Issue.find(params[:issue_id])
-    @arquivo = Arquivo.where(issue_id: @issue.id).order(nome: :asc)
+    @arquivobanco = Arquivo.where(issue_id: @issue.id).order(nome: :asc)
     @customFieldCliente = IssueCustomField.find_by_name('Cliente')
     @clienteprogress = @issue.custom_field_value(@customFieldCliente)
     @clienteprogress = @customFieldCliente.enumerations.find(@clienteprogress)

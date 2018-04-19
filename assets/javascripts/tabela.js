@@ -26,7 +26,7 @@ $(document).ready(function() {
                 "previous": "P&aacute;gina anterior"
             }
         }
-    } );
+    } )
 
     var table = $('#arquivosservertable').DataTable();
 
@@ -34,7 +34,6 @@ $(document).ready(function() {
         $(this).toggleClass('selected');
         contarSelecionados();
     } );
-
 } );
 
 function selecionarTudoPagina(){

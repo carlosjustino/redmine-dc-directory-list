@@ -1,0 +1,30 @@
+<div id="telabuscararquivos">
+  <div id="dados">
+    <input type="text" id="qtdSelecionadaField" disabled widh="100%" size="40">
+    <br/>
+    <a href="#" onClick="selecionarTudoPagina()" class="button">Selecionar p&aacute;gina</a>
+    <a href="#" onClick="limparSelecaoPagina()" class="button">Limpar sele&ccedil;&atilde;o p&aacute;gina</a>
+  </div>
+
+  <table id="arquivosservertable" class="display" cellspacing="0" width="100%">
+    <thead>
+    <%= render "tablecolumns" %>
+    </thead>
+
+    <tfoot>
+    <%= render "tablecolumns" %>
+    </tfoot>
+
+    <tbody>
+    <% @arquivostable && @arquivostable.each do |arq| %>
+      <tr>
+        <td><%= arq.nome %></td>
+        <td><%= arq.extensao %></td>
+        <td><%= arq.data %></td>
+        <td><%= arq.tamanho %></td>
+        <td><%= arq.usuario %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
