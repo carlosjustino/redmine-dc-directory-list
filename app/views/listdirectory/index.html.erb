@@ -1,6 +1,7 @@
 <%= javascript_include_tag "https://code.jquery.com/jquery-1.12.4.js", "https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js" %>
 <%= stylesheet_link_tag 'https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css' %>
-<%= javascript_include_tag "tabela.js", :plugin => 'listdirectory' %>
+<%= javascript_include_tag  "anexosfontes.js", "tabela.js", :plugin => 'listdirectory' %>
+
 
 <h1>Progress</h1>
 <h2>Tarefa
@@ -8,7 +9,11 @@
   - <%= @clienteprogress %></h2>
 
 <div id="telaview">
-
+  <div id="opcoestela">
+    <p>
+       <a href="#" onClick="removerSelecionados()" class="icon icon-del">Remover selecionados</a>
+    </p>
+  </div>
   <%=
     @arquivostable = @arquivobanco
     render "tablefontes"

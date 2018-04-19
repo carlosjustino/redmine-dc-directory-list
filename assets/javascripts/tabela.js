@@ -20,7 +20,7 @@ $(document).ready(function() {
             '<option value="-1">Todos</option>'+
             '</select> arquivos',
             "paginate": {
-                "first":"Primeira p&aacute;gina",
+                "first":"Primeira p&aacute;",
                 "last":"&Uacute;ltimo",
                 "next": "Pr&oacute;xima p&aacute;gina",
                 "previous": "P&aacute;gina anterior"
