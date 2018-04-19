@@ -1,0 +1,43 @@
+<h1>Progress</h1>
+<h2>Tarefa
+  #<%= link_to @issue.id, issue_path(id: @issue.id), :onclick => params[:action] == 'show' ? "$('#update').hide(); return false;" : '' %>
+  - <%= @clienteprogress %></h2>
+
+
+<!--
+Dir. Origem.....: /usr/pro/p/coagrisol/dif                                  ││
+││Mascara.........: *.p,*.i,*.trg,*.w,*.get,*.up,df*.df,*.s,*.sel,*.cls       ││
+││Usuario/Propriet:                                                           ││
+││Periodo Data....: 19/04/2018 19/04/2018                                     ││
+││Periodo Hora....: 00:00 24:00
+-->
+
+<%= form_tag(:action => "buscararquivos") do -%>
+  <%= hidden_field_tag 'issue_id', params[:issue_id] %>
+    <p>
+      <%= label_tag(:marcarabuscar, "Mascara:") %>
+      <%= text_field_tag(:marcarabuscar, '*.p,*.i,*.trg,*.w,*.get,*.up,df*.df,*.s,*.sel,*.cls',size: 60) %>
+    </p>
+  <p>
+    <%= label_tag(:usuariobuscar, "Usuário:") %>
+    <%= text_field_tag(:usuariobuscar, User.current.login) %>
+  </p>
+  <p>
+    <%= label_tag(:datainicialbuscar, "Data inicial:") %>
+    <%= date_field_tag(:datainicialbuscar) %>
+
+    <%= label_tag(:datafinalbuscar, "Data final:") %>
+    <%= date_field_tag(:datafinalbuscar) %>
+  </p>
+  <p>
+    <%= label_tag(:horainicialbuscar, "Hora inicial:") %>
+    <%= time_field_tag(:horainicialbuscar) %>
+
+    <%= label_tag(:horafinalbuscar, "Hora final:") %>
+    <%= time_field_tag(:horafinalbuscar) %>
+
+  </p>
+
+  <%= submit_tag l(:button_save) %>
+  <%= link_to l(:button_cancel), :back %>
+<% end -%>

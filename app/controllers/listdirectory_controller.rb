@@ -1,6 +1,13 @@
 class ListdirectoryController < ApplicationController
   include Socketprogress
 
+  def telafiltroanexos
+    @issue = Issue.find(params[:issue_id])
+    @customFieldCliente = IssueCustomField.find_by_name('Cliente')
+    @clienteprogress = @issue.custom_field_value(@customFieldCliente)
+    @clienteprogress = @customFieldCliente.enumerations.find(@clienteprogress)
+  end
+
 	def index
 		@issue = Issue.find(params[:issue_id])
     @arquivobanco = Arquivo.where(issue_id: @issue.id).order(nome: :asc)

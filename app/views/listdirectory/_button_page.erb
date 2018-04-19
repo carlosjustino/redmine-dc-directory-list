@@ -7,7 +7,7 @@
 				  var newLink = $("<a href=\"" + urlpath + "\" class=\"icon icon-document\">exibir fontes</a>");
 			   $($("#content .contextual")[0]).prepend(newLink);
 
-			    urlpath = "<%= url_for(:controller => 'listdirectory', :action => 'buscararquivos', :issue_id => @issue, :id => nil) %>";
+			    urlpath = "<%= url_for(:controller => 'listdirectory', :action => 'telafiltroanexos', :issue_id => @issue, :id => nil) %>";
 				  newLink = $("<a href=\"" + urlpath + "\" class=\"icon icon-add\">anexar fontes</a>");
 			   $($("#content .contextual")[0]).prepend(newLink);
 			}

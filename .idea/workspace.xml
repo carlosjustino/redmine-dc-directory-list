@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97c2b703-f7f0-4061-8f2a-d0d70763196d" name="Default" comment="">
+    <list default="true" id="97c2b703-f7f0-4061-8f2a-d0d70763196d" name="Default" comment="Tela de filtro">
       <change afterPath="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" afterDir="false" />
@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listdirectory_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="listdirectory_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="391">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="telafiltroanexos.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="telafiltroanexos.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="255">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -370,7 +370,7 @@
       <workItem from="1524049049920" duration="7589000" />
       <workItem from="1524061618279" duration="7918000" />
       <workItem from="1524081322431" duration="674000" />
-      <workItem from="1524139661317" duration="12660000" />
+      <workItem from="1524139661317" duration="12933000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio Plugin">
       <created>1523994013475</created>
@@ -404,24 +404,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69435000" />
+    <option name="totallyTimeSpent" value="69708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32972136" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32838285" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972136" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32838285" />
       <window_info anchor="right" id="Routes" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -447,7 +446,8 @@
     <MESSAGE value="Add Tamanho e Extensão na tabela arquivo" />
     <MESSAGE value="Buscando por Cliente via socket" />
     <MESSAGE value="União das telas" />
-    <option name="LAST_COMMIT_MESSAGE" value="União das telas" />
+    <MESSAGE value="Tela de filtro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tela de filtro" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
@@ -754,17 +754,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="391">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
