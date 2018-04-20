@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c2b703-f7f0-4061-8f2a-d0d70763196d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascripts/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascripts/jquery.blockUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascripts/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stylesheets/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/004_add_column_hora_to_arquivos.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/socketprogress.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/socketprogress.rb" afterDir="false" />
     </list>
@@ -18,26 +33,17 @@
       <file leaf-file-name="buscararquivos.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="1" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listdirectory_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socketprogress.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -45,8 +51,26 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anexar.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketprogress.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -54,26 +78,44 @@
       <file leaf-file-name="telafiltroanexos.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="telafiltroanexos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="73" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="73" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anexosfontes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/anexosfontes.js">
+      <file leaf-file-name="_tablecolumns.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="68">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tablefontes.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_button_page.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_button_page.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -86,6 +128,7 @@
         <option value="Ruby Class Template" />
         <option value="JavaScript File" />
         <option value="Erb File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -148,19 +191,23 @@
         <option value="$PROJECT_DIR$/app/controllers/socketprogress_controller.rb" />
         <option value="$PROJECT_DIR$/init.rb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumnsbody.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" />
         <option value="$PROJECT_DIR$/assets/javascripts/tabela.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/telaexibirfontes.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_formbusca.html.erb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_button_page.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/004_add_column_hora_to_arquivos.rb" />
+        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" />
         <option value="$PROJECT_DIR$/lib/socketprogress.rb" />
+        <option value="$PROJECT_DIR$/assets/spinner.css" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/spinner.css" />
+        <option value="$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js" />
+        <option value="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" />
       </list>
     </option>
@@ -172,8 +219,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1374" />
+    <option name="y" value="-3" />
     <option name="width" value="1382" />
     <option name="height" value="743" />
   </component>
@@ -183,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,6 +283,12 @@
               <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
               <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,26 +328,30 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\stylesheets" />
       <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory" />
       <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory\buscaarquivos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\db\migrate" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\stylesheets" />
       <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\javascripts" />
+      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\db\migrate" />
+      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory" />
+      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\stylesheets" />
       <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory\buscaarquivos" />
     </key>
   </component>
@@ -386,7 +441,9 @@
       <workItem from="1524139661317" duration="12933000" />
       <workItem from="1524169692825" duration="2040000" />
       <workItem from="1524223657812" duration="987000" />
-      <workItem from="1524225407003" duration="1720000" />
+      <workItem from="1524225407003" duration="6488000" />
+      <workItem from="1524246571062" duration="1589000" />
+      <workItem from="1524248185611" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio Plugin">
       <created>1523994013475</created>
@@ -430,28 +487,34 @@
       <option name="project" value="LOCAL" />
       <updated>1524170995087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Filtro funcionando por Data, hora, usuario e mascaras. Igual ao fnt227.p">
+      <created>1524229490246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524229490246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74455000" />
+    <option name="totallyTimeSpent" value="81087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1374" y="-3" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32817337" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32817337" />
       <window_info anchor="right" id="Routes" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -463,7 +526,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32673267" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32662538" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,40 +536,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Inicio Plugin" />
     <MESSAGE value="Add Tamanho e Extensão na tabela arquivo" />
     <MESSAGE value="Buscando por Cliente via socket" />
     <MESSAGE value="União das telas" />
     <MESSAGE value="Tela de filtro" />
     <MESSAGE value="Ajuste de label, envio de parametros para a biblioteca" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de label, envio de parametros para a biblioteca" />
+    <MESSAGE value="Filtro funcionando por Data, hora, usuario e mascaras. Igual ao fnt227.p" />
+    <MESSAGE value="Bloqueio de tela ao mandar buscar os fontes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bloqueio de tela ao mandar buscar os fontes." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/anexosfontes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -666,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablecolunas.html.erb" />
     <entry file="file://$PROJECT_DIR$/assets/javascripts/jquery.dataTables.js" />
     <entry file="file://$PROJECT_DIR$/assets/javascripts/jquery.js" />
@@ -687,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/001_create_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -712,45 +744,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/socketprogress_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/init.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/tabela.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_button_page.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -761,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -775,31 +765,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/001_create_arquivos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/004_add_column_hora_to_arquivos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="493">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/init.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/spinner.css" />
     <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="1" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="81" column="7" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_button_page.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -66,6 +66,7 @@ module Socketprogress
           arq.children.each do |sub_e|
             arquivo.nome = sub_e.inner_text if sub_e.name == 'nomeArquivo'
             arquivo.data = Date.parse(sub_e.inner_text) if sub_e.name == 'data'
+            arquivo.hora = sub_e.inner_text if sub_e.name == 'hora'
             arquivo.usuario = sub_e.inner_text if sub_e.name == 'usuario'
             arquivo.extensao = sub_e.inner_text if sub_e.name == 'extensao'
             arquivo.tamanho = sub_e.inner_text if sub_e.name == 'tamanho'
