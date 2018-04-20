@@ -1,10 +1,9 @@
 module Socketprogress
 
     def invocaServicoProgress( paramsocket)
-      cliente = paramsocket[:cliente]
       porta =  getNewPortSocket()
       servico = "FontesDifCliente"
-      xmlParam =  montaXmlParametros(cliente)
+      xmlParam =  montaXmlParametros(paramsocket)
       xmlRequisicao = criaXmlRequisicao(servico,"",xmlParam )
       puts("esperando 1 segundo")
       sleep(1)
@@ -92,11 +91,18 @@ module Socketprogress
       return retorno
     end
 
-    def montaXmlParametros(cliente)
+    def montaXmlParametros(paramsocket)
+
       xmlParam = Nokogiri::XML::Builder.new{|xml|
         xml['dc'].ExecutaServicoSock("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
           xml.registro do
-            xml.cliente "\""+cliente+"\""
+            xml.cliente "\""+paramsocket[:cliente]+"\""
+            xml.usuariobuscar "\""+paramsocket[:usuariobuscar]+"\""
+            xml.marcarabuscar "\""+paramsocket[:marcarabuscar]+"\""
+            xml.datainicialbuscar "\""+paramsocket[:datainicialbuscar]+"\""
+            xml.datafinalbuscar "\""+paramsocket[:datafinalbuscar]+"\""
+            xml.horainicialbuscar "\""+paramsocket[:horainicialbuscar]+"\""
+            xml.horafinalbuscar "\""+paramsocket[:horafinalbuscar]+"\""
           end
         end
       }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)

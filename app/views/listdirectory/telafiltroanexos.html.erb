@@ -12,7 +12,7 @@ Dir. Origem.....: /usr/pro/p/coagrisol/dif                                  │�
 ││Periodo Hora....: 00:00 24:00
 -->
 
-<%= form_tag(:action => "buscararquivos") do -%>
+<%=  form_tag(:action => "buscararquivos") do -%>
   <%= hidden_field_tag 'issue_id', params[:issue_id] %>
     <p>
       <%= label_tag(:marcarabuscar, "Mascara:") %>
@@ -24,10 +24,10 @@ Dir. Origem.....: /usr/pro/p/coagrisol/dif                                  │�
   </p>
   <p>
     <%= label_tag(:datainicialbuscar, "Data inicial:") %>
-    <%= date_field_tag(:datainicialbuscar) %>
+    <%= date_field_tag(:datainicialbuscar, Date.current ) %>
 
     <%= label_tag(:datafinalbuscar, "Data final:") %>
-    <%= date_field_tag(:datafinalbuscar) %>
+    <%= date_field_tag(:datafinalbuscar, Date.current) %>
   </p>
   <p>
     <%= label_tag(:horainicialbuscar, "Hora inicial:") %>
