@@ -20,8 +20,8 @@
       <tr>
         <td><%= arq.nome %></td>
         <td><%= arq.extensao %></td>
-        <td><%= arq.data.strftime("%d/%m/%Y") %></td>
-        <td><%= arq.hora %></td>
+        <td><%= arq.data.strftime("%d/%m/%Y") if arq.data %></td>
+        <td><%= arq.hora  %></td>
         <td><%= arq.tamanho %></td>
         <td><%= arq.usuario %></td>
       </tr>

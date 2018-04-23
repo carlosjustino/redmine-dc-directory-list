@@ -1,6 +1,5 @@
-
 <%= stylesheet_link_tag "jquery.dataTables.min.css", :plugin => 'listdirectory' %>
-<%= javascript_include_tag  "jquery-1.12.4.js", "jquery.dataTables.min.js", "anexosfontes.js", "tabela.js", :plugin => 'listdirectory' %>
+<%= javascript_include_tag "jquery-1.12.4.js", "jquery.dataTables.min.js", "anexosfontes.js", "tabela.js", :plugin => 'listdirectory' %>
 
 <h1>Progress</h1>
 <h2>Tarefa
@@ -10,7 +9,12 @@
 <div id="telaanexo">
   <div id="opcoestela">
     <p>
-       <a href="#" onClick="anexarSelecionados()" class="icon icon-add">Anexar selecionados</a>
+      <%= form_tag(:action => "anexarfontes") do -%>
+       <%= hidden_field_tag 'issue_id', params[:issue_id] %>
+       <%= hidden_field_tag 'arquivosEnviar', "[]" %>
+       <!-- a href="#" onClick="anexarSelecionados(<%= @issue.id %>)" class="icon icon-add">Anexar selecionados</a -->
+        <%= submit_tag "Anexar Selecionados", :id => "anexarbutton" %>
+      <% end -%>
     </p>
   </div>
   <%=
@@ -18,4 +22,3 @@
     render "tablefontes"
   %>
 </div>
-

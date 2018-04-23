@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="70bf5207-25af-42d8-be1f-8d856ad30e6c" name="redmine" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\apps\Bitnami\redmine-3.4.4-3\ruby" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
