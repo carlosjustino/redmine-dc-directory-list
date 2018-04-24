@@ -119,6 +119,38 @@ class ListdirectoryController < ApplicationController
     redirecionapaginaerro("","","")
 	end
 
+  def removerfontes
+    @issue = Issue.find(params[:issue_id])
+    @customFieldCliente = IssueCustomField.find_by_name('Cliente')
+    @clienteprogress = @issue.custom_field_value(@customFieldCliente)
+    @clienteprogress = @customFieldCliente.enumerations.find(@clienteprogress)
+    arquivosAnexados = []
+    arquivosRemovidos = ""
+    arquivosRemover = params[:arquivosRemover]
+    arquivosRemover.split(/\|/).each{ |cur|
+      current = cur
+      if current[0] == ',' then
+        current = cur[1, cur.length]
+      end
+      currentValue = current.split(/,/)
+      arquivosRemovidos = arquivosRemovidos + currentValue[0] + "\n"
+      arquivo = Arquivo.where(nome: currentValue[0], issue_id: currentValue[1]).take!
+      arquivosAnexados << arquivo
+      arquivo.destroy
+    }
+
+    user = User.current
+    journal = @issue.init_journal(user, "Fontes removidos: \n" + arquivosRemovidos)
+    journal.private_notes = true
+    journal.save
+    flash[:notice] = 'Selecionados Removidos.'
+    redirect_to :action => 'index', :issue_id => params[:issue_id]
+  rescue => e
+    @error = e
+    redirecionapaginaerro("","","")
+  end
+
+
   def preencheLista(pathBusca)
     arquivos = listaArquivos(pathBusca)
   end

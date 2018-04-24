@@ -9,7 +9,11 @@
 <div id="telaview">
   <div id="opcoestela">
     <p>
-       <a href="#" onClick="removerSelecionados()" class="icon icon-del">Remover selecionados</a>
+      <%= form_tag(:action => "removerfontes") do -%>
+        <%= hidden_field_tag 'issue_id', params[:issue_id] %>
+        <%= hidden_field_tag 'arquivosRemover', "" %>
+        <%= submit_tag "Remover Selecionados", :id => "arquivosRemoverButton" %>
+      <% end -%>
     </p>
   </div>
   <%=

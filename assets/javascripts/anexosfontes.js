@@ -3,6 +3,10 @@ $(document).ready(function() {
     $('#anexarbutton').click(function() {
         anexarSelecionados($('#issue_id').val());
     });
+    $('#arquivosRemoverButton').click(function() {
+        removerSelecionados($('#issue_id').val());
+    });
+
 });
 
 function anexarSelecionados(issue_id){
@@ -22,6 +26,14 @@ function anexarSelecionados(issue_id){
     $('#arquivosEnviar').val(arquivosEnviar);
 }
 
-function removerSelecionados(){
-
+function removerSelecionados(issue_id){
+    var arquivosRemover = [];
+    $('#arquivosservertable').DataTable().rows('.selected').data().
+    each(function(currentValue, index){
+        var arquivo =[];
+        arquivo[0] = currentValue[0];
+        arquivo[1] = issue_id + "|";
+        arquivosRemover.push(arquivo);
+    });
+    $('#arquivosRemover').val(arquivosRemover);
 }
