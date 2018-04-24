@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97c2b703-f7f0-4061-8f2a-d0d70763196d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascripts/tabela.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascripts/tabela.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +17,26 @@
       <file leaf-file-name="anexosfontes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/anexosfontes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="-54">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabela.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/tabela.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buscararquivos.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -29,17 +44,17 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="238">
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listdirectory_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listdirectory_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="141" column="23" lean-forward="true" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -120,7 +135,6 @@
         <option value="$PROJECT_DIR$/init.rb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.erb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumnsbody.html.erb" />
-        <option value="$PROJECT_DIR$/assets/javascripts/tabela.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/telaexibirfontes.js" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_formbusca.html.erb" />
         <option value="$PROJECT_DIR$/app/views/listdirectory/_button_page.erb" />
@@ -151,6 +165,7 @@
         <option value="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" />
         <option value="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" />
         <option value="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" />
+        <option value="$PROJECT_DIR$/assets/javascripts/tabela.js" />
       </list>
     </option>
   </component>
@@ -160,11 +175,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1283" />
-    <option name="y" value="-15" />
-    <option name="width" value="1122" />
-    <option name="height" value="752" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,9 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +233,17 @@
             <path>
               <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
               <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,6 +267,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,13 +330,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="ruby" type="RubyRemoteDebugConfigurationType" factoryName="Ruby remote debug">
-      <RUBY_REMOTE_DEBUG_CONFIG NAME="REMOTE_HOST" VALUE="localhost" />
-      <RUBY_REMOTE_DEBUG_CONFIG NAME="PORT" VALUE="1234" />
-      <RUBY_REMOTE_DEBUG_CONFIG NAME="DISPATCHER_PORT" VALUE="26162" />
-      <RUBY_REMOTE_DEBUG_CONFIG NAME="REMOTE_ROOT" VALUE="$PROJECT_DIR$/../.." />
-      <RUBY_REMOTE_DEBUG_CONFIG NAME="LOCAL_ROOT" VALUE="$PROJECT_DIR$/../.." />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -376,6 +395,7 @@
       <workItem from="1524506209738" duration="1892000" />
       <workItem from="1524508620973" duration="5010000" />
       <workItem from="1524567693957" duration="229000" />
+      <workItem from="1524568430735" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio Plugin">
       <created>1523994013475</created>
@@ -437,10 +457,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110290000" />
+    <option name="totallyTimeSpent" value="111922000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="-3" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -454,7 +474,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2965204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.301059" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -464,10 +484,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3250825" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/tabela.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/listdirectory/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -771,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/arquivo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -792,24 +798,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="141" column="23" lean-forward="true" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/anexosfontes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="-54">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/tabela.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
         </state>
       </provider>
     </entry>

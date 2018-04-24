@@ -34,6 +34,8 @@ $(document).ready(function() {
         $(this).toggleClass('selected');
         contarSelecionados();
     } );
+
+    contarSelecionados();
 } );
 
 function selecionarTudoPagina(){
@@ -58,6 +60,26 @@ function limparSelecaoPagina(){
 }
 
 function contarSelecionados(){
-    $('#qtdSelecionadaField').val($('#arquivosservertable').DataTable().rows('.selected').data().length +' arquivo(s) selecionado(s)');
+    var qtd = $('#arquivosservertable').DataTable().rows('.selected').data().length;
+    var botaoRemover = document.getElementById("arquivosRemoverButton");
+    var botaoAnexar = document.getElementById("anexarbutton");
+    $('#qtdSelecionadaField').val(qtd +' arquivo(s) selecionado(s)');
+
+   if ( qtd > 0 ) {
+       if (botaoRemover != null){
+           botaoRemover.removeAttribute("disabled");
+       }
+       if (botaoAnexar != null) {
+           botaoAnexar.removeAttribute("disabled");
+       }
+   } else {
+       if (botaoRemover != null){
+           botaoRemover.setAttribute("disabled","disabled");
+       }
+       if (botaoAnexar != null) {
+           botaoAnexar.setAttribute("disabled","disabled");
+       }
+   }
+
 }
 
