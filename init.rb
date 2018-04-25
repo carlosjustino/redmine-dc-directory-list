@@ -15,11 +15,14 @@ Redmine::Plugin.register :fntprogress do
   settings :default => {'hostfnt' => "", 'portfnt' => ""},
            :partial => 'settings/fntprogress_settings'
 
+  requires_redmine :version_or_higher => '3.0.0'
+
   project_module :fnt_progress_module do
-    permission :view_file_progress, :fntprogress => :index
-    permission :add_file_progress, :fntprogress => :telafiltroanexos
+    permission :view_file_progress, {}
+    permission :add_file_progress, {}
+    permission :remove_file_progress, {}
   end
-  
+
 end
 
 

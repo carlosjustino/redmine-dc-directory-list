@@ -1,5 +1,8 @@
 
 <%= javascript_include_tag  "telafiltroanexos.js", "jquery.blockUI.js", :plugin => 'fntprogress' %>
+<% if not User.current.allowed_to?(:add_file_progress, nil, global: true) %>
+  <p class="nodata"><%= l(:message_no_permissions) %></p>
+<% else %>
 
 <%= render "cabecalho" %>
 
@@ -42,3 +45,4 @@ Dir. Origem.....: /usr/pro/p/coagrisol/dif                                  â”‚â
     <%= link_to "Voltar", :back %>
   <% end -%>
 </div>
+<% end %>

@@ -1,6 +1,10 @@
 <%= stylesheet_link_tag "jquery.dataTables.min.css", :plugin => 'fntprogress' %>
 <%= javascript_include_tag "jquery-1.12.4.js", "jquery.dataTables.min.js", "jquery.blockUI.js", "anexosfontes.js", "tabela.js", :plugin => 'fntprogress' %>
 
+<% if not User.current.allowed_to?(:add_file_progress, nil, global: true) %>
+  <p class="nodata"><%= l(:message_no_permissions, "Você é um coco..") %></p>
+<% else %>
+
 <%= render "cabecalho" %>
 
 <div id="telaanexo">
@@ -18,3 +22,5 @@
     render "tablefontes"
   %>
 </div>
+
+<% end %>

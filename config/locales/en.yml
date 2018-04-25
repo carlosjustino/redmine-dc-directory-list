@@ -1,14 +1,3 @@
 # English strings go here for Rails i18n
 en:
-  label_bigbluebutton: Web meeting
-  label_bigbluebutton_join: Enter meeting
-  label_bigbluebutton_people: "Connected people"
-  label_bigbluebutton_status: "State"
-  label_bigbluebutton_status_running: Running
-  label_bigbluebutton_status_closed: Not started
-
-  permission_bigbluebutton_join: Join a meeting
-  permission_bigbluebutton_start: Start new meeting
-  permission_bigbluebutton_moderator: Moderator
-  label_bigbluebutton_start: Start meeting
-  label_bigbluebutton_error: Service temporary not available
+  message_no_permissions: No permission on this feature, call Batiman.

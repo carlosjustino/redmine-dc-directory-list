@@ -1,7 +1,7 @@
 class FntprogressController < ApplicationController
 
-#  unloadable
-
+  helper :custom_fields
+  include CustomFieldsHelper
 
   include Socketprogress
 

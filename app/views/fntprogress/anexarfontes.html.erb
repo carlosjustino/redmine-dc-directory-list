@@ -1,0 +1,5 @@
+<% if not User.current.allowed_to?(:add_file_progress, nil, global: true) %>
+  <p class="nodata"><%= l(:message_no_permissions) %></p>
+<% else %>
+
+<% end %>
