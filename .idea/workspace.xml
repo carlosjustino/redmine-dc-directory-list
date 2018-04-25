@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97c2b703-f7f0-4061-8f2a-d0d70763196d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/listdirectory/_cabecalho.html.erb" afterDir="false" />
+    <list default="true" id="47e8e042-40ff-44cd-8378-ab31fbf2c9e1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/helpers/fntprogress_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/fntprogress/arquivo.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/listdirectory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/socketprogress.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/socketprogress.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/listdirectory_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_button_page.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_button_page.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_cabecalho.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_cabecalho.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_tablecolumns.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_tablefontes.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/anexar.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/anexarfontes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/anexarfontes.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/arquivo.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/buscararquivos.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/errorpage.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/telafiltroanexos.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.rb" beforeDir="false" afterPath="$PROJECT_DIR$/init.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/listdirectory/hooks.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/functional/listdirectory_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/functional/listdirectory_controller_test.rb" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <ignored path="$PROJECT_DIR$/vendor/cache/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,121 +46,79 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="anexosfontes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/anexosfontes.js">
+    <leaf>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="5" column="72" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buscararquivos.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="289">
+                <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errorpage.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb">
+      <file leaf-file-name="init.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listdirectory_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="161" column="63" selection-start-line="161" selection-start-column="55" selection-end-line="161" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socketprogress.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="telafiltroanexos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
+      <file leaf-file-name="fntprogress_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/fntprogress_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="95" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fntprogress_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/fntprogress_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arquivo.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/arquivo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_button_page.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/fntprogress/_button_page.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="Erb File" />
-        <option value="CSS File" />
-        <option value="Ruby Class Template" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;Search&quot;</find>
-      <find>Search</find>
-      <find>Show</find>
-      <find>Buscar</find>
-      <find>Showing</find>
-      <find>Previous</find>
-      <find>sPrevious</find>
-      <find>sNext</find>
-      <find>#example</find>
-      <find>time</find>
-      <find>Issu</find>
-      <find>arquivosservidor</find>
-      <find>montaXmlParametros</find>
-      <find>fl</find>
-      <find>context</find>
-      <find>sle</find>
-      <find>flash</find>
-      <find>arquivosservertable</find>
-      <find>input</find>
-      <find>back</find>
-      <find>render</find>
-      <find>re</find>
-      <find>arquivosRemoverbutton</find>
-      <find>fnt</find>
-      <find>apresentacao</find>
-      <find>rescue</find>
-      <find>arquivosRemover</find>
-      <find>anexos</find>
-      <find>, &quot;jquery.blockUI.js&quot;,</find>
-      <find>codigo</find>
+      <find>view_file_progress</find>
     </findStrings>
-    <replaceStrings>
-      <replace>#arquivosservertable</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,56 +126,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_formbusca.erb" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/buscaarquivos/_tablehead.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/buscaarquivos/_tablecolunas.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/buscaarquivos/buscararquivos.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolunas.html.erb" />
-        <option value="$PROJECT_DIR$/assets/javascripts/jquery.dataTables.js" />
-        <option value="$PROJECT_DIR$/db/migrate/001_create_arquivos.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/app/models/arquivo.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/002_add_column_extensao_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/003_add_column_tamanho_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/socketprogress_controller.rb" />
-        <option value="$PROJECT_DIR$/init.rb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumnsbody.html.erb" />
-        <option value="$PROJECT_DIR$/assets/javascripts/telaexibirfontes.js" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_formbusca.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_button_page.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/004_add_column_hora_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" />
-        <option value="$PROJECT_DIR$/assets/spinner.css" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/spinner.css" />
-        <option value="$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/005_rename_column_diretorio_to_nomecompleto.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/006_index_table_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/006_index_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/006_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/006_add_index_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/006_add_index_to_arquivo.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/006_add_index_nome_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/007_add_index_issueId_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/007_remove_column_issue_id_from_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/008_add_join_issue_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/anexarfontes.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/009_add_unique_index_nome_to_arquivos.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/009_add_index_nome_to_arquivos.rb" />
+        <option value="$PROJECT_DIR$/app/views/fntprogress/_button_page.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/assets/javascripts/tabela.js" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/_cabecalho.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" />
-        <option value="$PROJECT_DIR$/assets/javascripts/anexosfontes.js" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb" />
-        <option value="$PROJECT_DIR$/lib/socketprogress.rb" />
+        <option value="$PROJECT_DIR$/init.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/fntprogress_helper.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -208,59 +148,89 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="listdirectory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="listdirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41264367" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\db\migrate" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\javascripts" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\stylesheets" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory\buscaarquivos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\assets\stylesheets" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory" />
-      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\listdirectory\app\views\listdirectory\buscaarquivos" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -323,136 +293,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97c2b703-f7f0-4061-8f2a-d0d70763196d" name="Default" comment="" />
-      <created>1523477023573</created>
+      <changelist id="47e8e042-40ff-44cd-8378-ab31fbf2c9e1" name="Default" comment="" />
+      <created>1524662529186</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523477023573</updated>
-      <workItem from="1523477025089" duration="261000" />
-      <workItem from="1523477313010" duration="567000" />
-      <workItem from="1523477901165" duration="7000" />
-      <workItem from="1523477923733" duration="134000" />
-      <workItem from="1523478073534" duration="2080000" />
-      <workItem from="1523530743360" duration="3950000" />
-      <workItem from="1523537321822" duration="4657000" />
-      <workItem from="1523557337002" duration="5636000" />
-      <workItem from="1523616374833" duration="16836000" />
-      <workItem from="1523653189674" duration="195000" />
-      <workItem from="1523875046763" duration="1222000" />
-      <workItem from="1523877675031" duration="1352000" />
-      <workItem from="1523989101910" duration="3094000" />
-      <workItem from="1523996391350" duration="603000" />
-      <workItem from="1524049049920" duration="7589000" />
-      <workItem from="1524061618279" duration="7918000" />
-      <workItem from="1524081322431" duration="674000" />
-      <workItem from="1524139661317" duration="12933000" />
-      <workItem from="1524169692825" duration="2040000" />
-      <workItem from="1524223657812" duration="987000" />
-      <workItem from="1524225407003" duration="6488000" />
-      <workItem from="1524246571062" duration="1589000" />
-      <workItem from="1524248185611" duration="275000" />
-      <workItem from="1524248567718" duration="6855000" />
-      <workItem from="1524480748000" duration="10923000" />
-      <workItem from="1524501384967" duration="1356000" />
-      <workItem from="1524503283849" duration="2880000" />
-      <workItem from="1524506209738" duration="1892000" />
-      <workItem from="1524508620973" duration="5010000" />
-      <workItem from="1524567693957" duration="229000" />
-      <workItem from="1524568430735" duration="2977000" />
-      <workItem from="1524572421448" duration="145000" />
-      <workItem from="1524572801117" duration="13889000" />
-      <workItem from="1524652967484" duration="4974000" />
+      <updated>1524662529186</updated>
+      <workItem from="1524662530514" duration="2702000" />
     </task>
-    <task id="LOCAL-00001" summary="Inicio Plugin">
-      <created>1523994013475</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1523994013475</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add Tamanho e Extensão na tabela arquivo">
-      <created>1524053739606</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1524053739606</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Buscando por Cliente via socket">
-      <created>1524072967040</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1524072967040</updated>
-    </task>
-    <task id="LOCAL-00004" summary="União das telas">
-      <created>1524149555580</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1524149555580</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Tela de filtro">
-      <created>1524169720875</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1524169720875</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Ajuste de label, envio de parametros para a biblioteca">
-      <created>1524170995087</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1524170995087</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Filtro funcionando por Data, hora, usuario e mascaras. Igual ao fnt227.p">
-      <created>1524229490246</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1524229490246</updated>
-    </task>
-    <task id="LOCAL-00008" summary="migration: nomecompleto e index, com foreign_key">
-      <created>1524485567783</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1524485567783</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132275000" />
+    <option name="totallyTimeSpent" value="2702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-3" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.39933994" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32817337" />
-      <window_info anchor="right" content_ui="combo" id="Routes" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32972136" />
+      <window_info anchor="right" id="Routes" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39933994" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3250825" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,408 +342,72 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Inicio Plugin" />
-    <MESSAGE value="Add Tamanho e Extensão na tabela arquivo" />
-    <MESSAGE value="Buscando por Cliente via socket" />
-    <MESSAGE value="União das telas" />
-    <MESSAGE value="Tela de filtro" />
-    <MESSAGE value="Ajuste de label, envio de parametros para a biblioteca" />
-    <MESSAGE value="Filtro funcionando por Data, hora, usuario e mascaras. Igual ao fnt227.p" />
-    <MESSAGE value="Bloqueio de tela ao mandar buscar os fontes." />
-    <MESSAGE value="migration: nomecompleto e index, com foreign_key" />
-    <MESSAGE value="Inserindo arquivos e journals." />
-    <MESSAGE value="Removendo arquivos e anotando no journals." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removendo arquivos e anotando no journals." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" lean-forward="true" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="154" column="45" lean-forward="true" selection-start-line="154" selection-start-column="45" selection-end-line="154" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/001_create_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/arquivo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_file_progress.erb" />
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/jquery.dataTables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="324" column="57" selection-start-line="324" selection-start-column="51" selection-end-line="324" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablecolunas.html.erb" />
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/jquery.dataTables.js" />
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/jquery.js" />
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/002_add_column_extensao_to_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/socketprogress_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/004_add_column_hora_to_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/init.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/spinner.css" />
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_button_page.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/fntprogress_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/001_create_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/003_add_column_tamanho_to_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/005_rename_column_diretorio_to_nomecompleto.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/006_add_index_to_arquivo.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/006_add_index_nome_to_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/007_remove_column_issue_id_from_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/008_add_join_issue_to_arquivos.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/009_add_index_nome_to_arquivos2.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/fntprogress_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/arquivo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/fntprogress/_button_page.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/tabela.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/_cabecalho.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../../Ruby24-x64/lib/ruby/2.4.0/rdoc/class_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="432" column="24" selection-start-line="432" selection-start-column="12" selection-end-line="432" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs24/hash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="784" column="8" selection-start-line="784" selection-start-column="8" selection-end-line="784" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/telafiltroanexos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/anexosfontes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="95" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/listdirectory_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="161" column="63" selection-start-line="161" selection-start-column="55" selection-end-line="161" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41264367" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>JRuby (listdirectory)|JRuby</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41264367" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>actioncable (v5.2.0, ruby-2.4.4-p296) [gem]</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41264367" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>ruby-2.4.4-p296</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41264367" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>listdirectory</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41264367" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -870,17 +415,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.41264367" />
               </list>
             </option>
           </splitter-proportions>

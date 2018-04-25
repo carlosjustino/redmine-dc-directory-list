@@ -21,7 +21,11 @@ Este plugin permite listar os arquivos das pastas do Servidor.
 
 1. Baixe a ultima versão do plugin [ultima versão](https://carlosjustino.github.io/redmine-fntprogress/releases/latest).
 2. Extraia dentro da pasta `<redmine_path>/plugins`. O resultado deve ser `<redmine_path>/plugins/fntprogress`.
-3. Reinicie o Redmine.
+3. Executar a migração do banco.
+   
+   `bundle exec rake redmine:plugins:migrate`
+   
+4. Reinicie o Redmine.
 
 Agora você conseguira ver o plugin na lista no caminho _Administration -> Plugins_ e poderá configura-lo.
 

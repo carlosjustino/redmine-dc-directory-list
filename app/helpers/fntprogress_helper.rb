@@ -1,0 +1,2 @@
+module FntprogressHelper
+end

@@ -1,13 +1,13 @@
-<%- if @project && @project.module_enabled?("file_progress_module")%>
+<%- if @project && @project.module_enabled?("fnt_progress_module")%>
 	<%- if @issue  %>
 		<script type="text/javascript">
 			$(document).ready(function($) {
 			if($("body").hasClass("controller-issues")) {
-			    var urlpath = "<%= url_for(:controller => 'listdirectory', :action => 'index', :issue_id => @issue, :id => nil) %>";
+			    var urlpath = "<%= url_for(:controller => 'fntprogress', :action => 'index', :issue_id => @issue, :id => nil) %>";
 				  var newLink = $("<a href=\"" + urlpath + "\" class=\"icon icon-document\">exibir fontes</a>");
 			   $($("#content .contextual")[0]).prepend(newLink);
 
-			    urlpath = "<%= url_for(:controller => 'listdirectory', :action => 'telafiltroanexos', :issue_id => @issue, :id => nil) %>";
+			    urlpath = "<%= url_for(:controller => 'fntprogress', :action => 'telafiltroanexos', :issue_id => @issue, :id => nil) %>";
 				  newLink = $("<a href=\"" + urlpath + "\" class=\"icon icon-add\">anexar fontes</a>");
 			   $($("#content .contextual")[0]).prepend(newLink);
 			}

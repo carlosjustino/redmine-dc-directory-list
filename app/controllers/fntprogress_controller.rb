@@ -1,4 +1,4 @@
-class ListdirectoryController < ApplicationController
+class FntprogressController < ApplicationController
   include Socketprogress
 
   def telafiltroanexos

@@ -5,7 +5,7 @@
 	<div>
     <div id="buscaarquivos">
 
-      <%= labelled_form_for 'arquivonovo', :url => ({:controller => :listdirectory, :action => 'create'}) do |f| %>
+      <%= labelled_form_for 'arquivonovo', :url => ({:controller => :fntprogress, :action => 'create'}) do |f| %>
 
         <div class="box tabular">
           <p><%= f.text_field :nome, :required => true %></p>

@@ -2,9 +2,9 @@
 # See: http://guides.rubyonrails.org/routing.html
 
 
-get 'listdirectory', :to => 'listdirectory#index', :as => 'view_file_progress'
-get 'listdirectory/telafiltroanexos', :to => 'listdirectory#telafiltroanexos', :as => 'search_filter'
-post 'listdirectory/buscararquivos', :to => 'listdirectory#buscararquivos', :as => 'search_file_progress'
-post 'listdirectory/anexarfontes', :to => 'listdirectory#anexarfontes', :as => 'addlist_file_progress'
-post 'listdirectory/removerfontes', :to => 'listdirectory#removerfontes', :as => 'dellist_file_progress'
-get 'listdirectory/errorpage', :to => 'listdirectory#errorpage'
+get 'fntprogress', :to => 'fntprogress#index', :as => 'view_file_progress'
+get 'fntprogress/telafiltroanexos', :to => 'fntprogress#telafiltroanexos', :as => 'search_filter_progress'
+post 'fntprogress/buscararquivos', :to => 'fntprogress#buscararquivos', :as => 'search_file_progress'
+post 'fntprogress/anexarfontes', :to => 'fntprogress#anexarfontes', :as => 'addlist_file_progress'
+post 'fntprogress/removerfontes', :to => 'fntprogress#removerfontes', :as => 'dellist_file_progress'
+get 'fntprogress/errorpage', :to => 'fntprogress#errorpage'
