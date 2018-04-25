@@ -1,2 +1,27 @@
 pt-BR:
   message_no_permissions: Usuário sem permissão.
+  #button_remove_file: Remover Selecionados
+  #button_add_file: Anexar Selecionados
+  #button_looking_file: Buscar fontes
+  #link_back: Voltar
+  #link_show_files: exibir fontes
+  #link_add_files: anexar fontes
+  #h1_head_title: Fontes Progress
+  #h2_head_task: Tarefa
+  #h2_head_sol: Solicita&ccedil;&atilde;o FNT
+  #table_column_name: Nome
+  #table_column_ext: Extens&atilde;o
+  #table_column_date: Data Altera&ccedil;&atilde;o
+  #table_column_time: Hora
+  #table_column_length: Tamanho
+  #table_column_user: Usu&aacute;rio
+  #link_table_select_page: Selecionar p&aacute;gina
+  #link_table_deselect_page: Limpar sele&ccedil;&atilde;o p&aacute;gina
+  #label_horafinalbuscar: Hora final:
+  #label_horainicialbuscar: Hora inicial:
+  #label_datafinalbuscar: Data final:
+  #label_datainicialbuscar: Data inicial:
+  #label_usuariobuscar: Usuário:
+  #label_marcarabuscar: Mascara:
+  #settings_fntprogress_host: Servidor FNT:
+  #settings_fntprogress_port: Porta FNT:

@@ -1,3 +1,27 @@
-# English strings go here for Rails i18n
 en:
   message_no_permissions: No permission on this feature, call Batiman.
+  #button_remove_file: Remove File
+  #button_add_file: Add Files
+  #button_looking_file: Looking for files
+  #link_back: Go back
+  #link_show_files: show files
+  #link_add_files: add files
+  #h1_head_title: Files Progress
+  #h2_head_task: Task
+  #h2_head_sol: Task FNT
+  #table_column_name: Name
+  #table_column_ext: Extension
+  #table_column_date: Date updated
+  #table_column_time: Time
+  #table_column_length: Length
+  #table_column_user: User
+  #link_table_select_page: Select page
+  #link_table_deselect_page: Deselect page
+  #label_horafinalbuscar: Time end:
+  #label_horainicialbuscar: Time start:
+  #label_datafinalbuscar: Date end:
+  #label_datainicialbuscar: Date start:
+  #label_usuariobuscar: User:
+  #label_marcarabuscar: Mask:
+  #settings_fntprogress_host: Host FNT:
+  #settings_fntprogress_port: Port FNT:
