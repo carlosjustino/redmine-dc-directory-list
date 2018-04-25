@@ -40,7 +40,7 @@ Apresentação e anexo dos fontes na solicitação referenciada no REDMINE.
 
 ## Installation notes
 
-1. Baixe a ultima versão do plugin [ultima versão](https://carlosjustino.github.io/redmine-fntprogress/releases/latest).
+1. Baixe a ultima versão do plugin [ultima versão](https://github.com/carlosjustino/redmine-fntprogress/releases/latest).
 2. Extraia dentro da pasta `<redmine_path>/plugins`. O resultado deve ser `<redmine_path>/plugins/fntprogress`.
 3. Executar a migração do banco.
    
