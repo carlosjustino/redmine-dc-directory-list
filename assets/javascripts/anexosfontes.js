@@ -1,9 +1,31 @@
 
 $(document).ready(function() {
     $('#anexarbutton').click(function() {
+        $.blockUI({
+            message: "<h1>Aguarde, Anexando fontes no FNT...</h1>",
+            css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: '#000',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .5,
+                color: '#fff'
+            } });
         anexarSelecionados($('#issue_id').val());
     });
     $('#arquivosRemoverButton').click(function() {
+        $.blockUI({
+            message: "<h1>Aguarde, Removendo fontes do FNT...</h1>",
+            css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: '#000',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .5,
+                color: '#fff'
+            } });
         removerSelecionados($('#issue_id').val());
     });
 
@@ -35,5 +57,6 @@ function removerSelecionados(issue_id){
         arquivo[1] = issue_id + "|";
         arquivosRemover.push(arquivo);
     });
+    console.log(arquivosRemover);
     $('#arquivosRemover').val(arquivosRemover);
 }

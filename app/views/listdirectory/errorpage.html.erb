@@ -1,12 +1,9 @@
 
-<h1>Progress</h1>
-<h2>Tarefa
-  #<%= link_to @issue.id, issue_path(id: @issue.id), :onclick => params[:action] == 'show' ? "$('#update').hide(); return false;" : '' %>
-  - <%= @clienteprogress %></h2>
+<%= render "cabecalho" %>
 
 <div id="telaerro">
 
-  <% if @error %>
+  <% if @classeTelaError && @mensagemTelaErro %>
     <table>
       <thead>
         <tr>
@@ -25,9 +22,30 @@
       </tr>
       <tr>
         <td>Backtrace:</td>
-        <td><%= @backtraceTelaErro %></td>
+        <td>
+          <%= @backtraceTelaErro %>
+        </td>
       </tr>
     </tbody>
     </table>
+  <% end %>
+
+  <% if @debugxmlenvio %>
+    <h3>Envio</h3>
+  <pre>
+    <%= @debugxmlenvio %>
+  </pre>
+  <% end %>
+  <% if @debugxmlretorno %>
+    <h3>Retorno</h3>
+    <pre>
+      <%= @debugxmlretorno %>
+    </pre>
+  <% end %>
+  <% if @xmlerro %>
+    <h3>Erro</h3>
+    <pre>
+        <%= @xmlerro %>
+      </pre>
   <% end %>
 </div>

@@ -1,11 +1,8 @@
 
+<%= render "cabecalho" %>
+
 <div id="telaanexo">
-	<h1>Progress <%= @clienteprogress %></h1>
-	<h2>Tarefa #<%= link_to @issue.id, issue_path(id: @issue.id), :onclick => params[:action] == 'show' ? "$('#update').hide(); return false;" : '' %> - <%= @clienteprogress %></h2>
 	<div>
-
-
-
     <div id="buscaarquivos">
 
       <%= labelled_form_for 'arquivonovo', :url => ({:controller => :listdirectory, :action => 'create'}) do |f| %>

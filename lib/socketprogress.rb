@@ -1,9 +1,9 @@
 module Socketprogress
 
-    def invocaServicoProgress( paramsocket)
+    def buscarFontesProgress( paramsocket)
       porta =  getNewPortSocket()
-      servico = "FontesDifCliente"
-      xmlParam =  montaXmlParametros(paramsocket)
+      servico = "RedmineFontesDifCliente"
+      xmlParam =  montaXmlParametros(paramsocket, "buscarFontesProgress")
       xmlRequisicao = criaXmlRequisicao(servico,"",xmlParam )
       puts("esperando 1 segundo")
       sleep(1)
@@ -29,7 +29,70 @@ module Socketprogress
       else
         geraErro()
       end
-      puts("fim invocaServicoProgress")
+      puts("fim buscarFontesProgress")
+    end
+
+    def anexarFontesProgress(paramsocket)
+      porta =  getNewPortSocket()
+      servico = "RedmineAnexarFontesSolicitacao"
+      xmlParam =  montaXmlParametros(paramsocket, "anexarFontesProgress")
+      xmlDados = montaXmlDados(paramsocket, "anexarFontesProgress")
+      xmlRequisicao = criaXmlRequisicao(servico,xmlDados,xmlParam )
+      @debugxmlenvio = xmlRequisicao
+      puts("esperando 1 segundo")
+      sleep(1)
+      puts("iniciando")
+
+      s = connect("prg01.datacoper.com.br", porta)
+      s.print(xmlRequisicao.length)
+      s.gets()
+      s.print(xmlRequisicao)
+      tamanho = s.gets # Read lines from socket
+
+      if (!tamanho.equal?("0"))
+        retorno = ""
+        while line = s.gets # Read lines from socket
+          retorno << line.strip       # and print them
+        end
+        retorno = retorno.strip
+        s.close             # close socket when done
+        @debugxmlretorno = retorno
+        processaRetorno(retorno)
+      else
+        geraErro()
+      end
+      puts("fim RedmineAnexarFontesSolicitacao")
+    end
+
+    def removeAnexoFonteProgress(paramsocket)
+      porta =  getNewPortSocket()
+      servico = "RedmineRemoveAnexoFonteProgress"
+      xmlParam =  montaXmlParametros(paramsocket, "removeAnexoFonteProgress")
+      xmlDados = montaXmlDados(paramsocket, "removeAnexoFonteProgress")
+      xmlRequisicao = criaXmlRequisicao(servico,xmlDados,xmlParam )
+      puts("esperando 1 segundo")
+      sleep(1)
+      puts("iniciando")
+      @debugxmlenvio = xmlRequisicao
+      s = connect("prg01.datacoper.com.br", porta)
+      s.print(xmlRequisicao.length)
+      s.gets()
+      s.print(xmlRequisicao)
+      tamanho = s.gets # Read lines from socket
+
+      if (!tamanho.equal?("0"))
+        retorno = ""
+        while line = s.gets # Read lines from socket
+          retorno << line.strip       # and print them
+        end
+        retorno = retorno.strip
+        s.close             # close socket when done
+        @debugxmlretorno = retorno
+        processaRetorno(retorno)
+      else
+        geraErro()
+      end
+      puts("fim RedmineRemoveAnexoFonteProgress")
     end
 
     def geraErro()
@@ -78,8 +141,8 @@ module Socketprogress
 
     def processaRetornoErro(xmlErro)
       puts(xmlErro)
-      @arquivosservidor = nil
-      sleep(3)
+      @xmlerro = xmlErro
+      raise xmlErro
     end
 
     def getNewPortSocket
@@ -92,22 +155,75 @@ module Socketprogress
       return retorno
     end
 
-    def montaXmlParametros(paramsocket)
-
-      xmlParam = Nokogiri::XML::Builder.new{|xml|
-        xml['dc'].ExecutaServicoSock("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
-          xml.registro do
-            xml.cliente "\""+paramsocket[:cliente]+"\""
-            xml.usuariobuscar "\""+paramsocket[:usuariobuscar]+"\""
-            xml.marcarabuscar "\""+paramsocket[:marcarabuscar]+"\""
-            xml.datainicialbuscar "\""+paramsocket[:datainicialbuscar]+"\""
-            xml.datafinalbuscar "\""+paramsocket[:datafinalbuscar]+"\""
-            xml.horainicialbuscar "\""+paramsocket[:horainicialbuscar]+"\""
-            xml.horafinalbuscar "\""+paramsocket[:horafinalbuscar]+"\""
+    def montaXmlParametros(paramsocket, tipo)
+      xmlParam = ""
+      case tipo
+      when "buscarFontesProgress"
+        xmlParam = Nokogiri::XML::Builder.new{|xml|
+          xml['dc'].ExecutaServicoSock("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
+            xml.registro do
+              xml.cliente "\""+paramsocket[:cliente]+"\""
+              xml.usuariobuscar "\""+paramsocket[:usuariobuscar]+"\""
+              xml.marcarabuscar "\""+paramsocket[:marcarabuscar]+"\""
+              xml.datainicialbuscar "\""+paramsocket[:datainicialbuscar]+"\""
+              xml.datafinalbuscar "\""+paramsocket[:datafinalbuscar]+"\""
+              xml.horainicialbuscar "\""+paramsocket[:horainicialbuscar]+"\""
+              xml.horafinalbuscar "\""+paramsocket[:horafinalbuscar]+"\""
+            end
           end
-        end
-      }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)
+        }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)
+      when "anexarFontesProgress"
+        xmlParam = Nokogiri::XML::Builder.new{|xml|
+          xml['dc'].ExecutaServicoSocket("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
+            xml.registro do
+              xml.codigofnt  paramsocket[:codigofnt]
+              xml.cliente "\""+paramsocket[:cliente]+"\""
+              xml.usuariobuscar "\"skt501\""
+              xml.diretorio "\"\""
+            end
+          end
+        }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)
+      when "removeAnexoFonteProgress"
+        xmlParam = Nokogiri::XML::Builder.new{|xml|
+          xml['dc'].ExecutaServicoSocket("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
+            xml.registro do
+              xml.codigofnt paramsocket[:codigofnt]
+              xml.cliente "\""+paramsocket[:cliente]+"\""
+              xml.usuariobuscar "\"skt501\""
+            end
+          end
+        }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)
+      end
+
       return xmlParam.to_s
+    end
+
+    def montaXmlDados(paramsocket, tipo)
+      xmlDados = ""
+      case tipo
+      when "anexarFontesProgress"
+        xmlDados = Nokogiri::XML::Builder.new{|xml|
+          xml['dc'].ExecutaServicoSocket("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
+            paramsocket[:fontesanexados].each{|fonte|
+              xml.registro do
+                xml.fonte fonte.nome
+              end
+            }
+          end
+        }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)
+      when "removeAnexoFonteProgress"
+        xmlDados = Nokogiri::XML::Builder.new{|xml|
+          xml['dc'].ExecutaServicoSocket("xmlns:dc" => "http://www.datacoper.com/InterfaceadorProgress4J/RequisicaoServicoInterfaceadorProgress") do
+            paramsocket[:fontesremover].each{|fonte|
+              xml.registro do
+                xml.fonte fonte.nome
+              end
+            }
+          end
+        }.to_xml(:indent => 0, :save_with => Nokogiri::XML::Node::SaveOptions::AS_XML)
+      end
+
+      return xmlDados.to_s
     end
 
     def criaXmlRequisicao(servico,xmlDados, xmlParametros)
