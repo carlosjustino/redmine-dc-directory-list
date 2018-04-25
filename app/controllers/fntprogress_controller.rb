@@ -1,4 +1,8 @@
 class FntprogressController < ApplicationController
+
+#  unloadable
+
+
   include Socketprogress
 
   def telafiltroanexos
@@ -228,4 +232,14 @@ class FntprogressController < ApplicationController
     @solicitacaoFNT = @issue.custom_field_value(customField)
   end
 
+  private
+
+  def find_issue
+    @issue = Issue.find(params[:issue_id])
+  end
+
+  def find_project
+    # @project variable must be set before calling the authorize filter
+    @project = Project.find(params[:project_id])
+  end
 end

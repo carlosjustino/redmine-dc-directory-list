@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e8e042-40ff-44cd-8378-ab31fbf2c9e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/helpers/fntprogress_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/fntprogress/arquivo.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/listdirectory.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/settings/_fntprogress_settings.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/listdirectory_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/listdirectory_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_button_page.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_button_page.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_cabecalho.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_cabecalho.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_tablecolumns.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_tablecolumns.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/_tablefontes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/_tablefontes.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/anexar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/anexar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/anexarfontes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/anexarfontes.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/arquivo.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/buscararquivos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/buscararquivos.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/errorpage.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/errorpage.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/listdirectory/telafiltroanexos.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/fntprogress/telafiltroanexos.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/init.rb" beforeDir="false" afterPath="$PROJECT_DIR$/init.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/listdirectory/hooks.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/functional/listdirectory_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/functional/listdirectory_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/socketprogress.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/socketprogress.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -51,19 +29,7 @@
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="72" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
+              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -71,8 +37,17 @@
       <file leaf-file-name="init.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="289">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_fntprogress_settings.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/settings/_fntprogress_settings.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -80,8 +55,26 @@
       <file leaf-file-name="fntprogress_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/fntprogress_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketprogress.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="150" column="109" selection-start-line="150" selection-start-column="109" selection-end-line="150" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -90,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/app/helpers/fntprogress_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -107,17 +100,27 @@
       <file leaf-file-name="_button_page.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/fntprogress/_button_page.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="91" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Erb File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>view_file_progress</find>
+      <find>telafiltroanexos</find>
+      <find>@issue</find>
+      <find>conf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,12 +130,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/views/fntprogress/_button_page.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/init.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/fntprogress_helper.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/settings/_fntprogress_settings.html.erb" />
+        <option value="$PROJECT_DIR$/init.rb" />
+        <option value="$PROJECT_DIR$/app/views/settings/_fntprogress_settings.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/fntprogress_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/socketprogress.rb" />
       </list>
     </option>
   </component>
@@ -169,24 +175,6 @@
               <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
               <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,7 +182,7 @@
               <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="fntprogress" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fntprogress" type="b2602c69:ProjectViewProjectNode" />
@@ -231,6 +219,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\apps\Bitnami\redmine-3.4.4-3\apps\redmine\htdocs\plugins\fntprogress\app\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -298,16 +291,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524662529186</updated>
-      <workItem from="1524662530514" duration="2702000" />
+      <workItem from="1524662530514" duration="10068000" />
     </task>
+    <task id="LOCAL-00001" summary="Mudança do nome do plugin, correção do README">
+      <created>1524665651912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524665651912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2702000" />
+    <option name="totallyTimeSpent" value="10068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-3" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -335,12 +335,43 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32972136" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" id="Routes" order="1" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32972136" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mudança do nome do plugin, correção do README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudança do nome do plugin, correção do README" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/001_create_arquivos.rb">
@@ -353,45 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/fntprogress_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/fntprogress_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/arquivo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/fntprogress/_button_page.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -402,6 +398,62 @@
             <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/fntprogress/_button_page.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="91" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/fntprogress_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/settings/_fntprogress_settings.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/fntprogress_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/socketprogress.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="150" column="109" selection-start-line="150" selection-start-column="109" selection-end-line="150" selection-end-column="109" />
         </state>
       </provider>
     </entry>

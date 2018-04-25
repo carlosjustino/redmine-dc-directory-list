@@ -9,15 +9,15 @@ Redmine::Plugin.register :fntprogress do
   author 'Carlos Eduardo Justino'
   description 'Plugin para o Redmine que permiti a comunição com o FNT(Progress)'
   version '1.0.0'
-  url 'http://www.datacoper.com.br'
+  url 'https://carlosjustino.github.io/redmine-fntprogress'
   author_url 'http://carlosjustino.eti.br/'
 
-  permission :fntprogress, :public => false
+  settings :default => {'hostfnt' => "", 'portfnt' => ""},
+           :partial => 'settings/fntprogress_settings'
 
   project_module :fnt_progress_module do
-     permission :view_file_progress, :require => :loggedin
-     permission :search_filter_progress, :require => :member
-     permission :fntprogress, { :fntprogress => [:index, :telafiltroanexos] }, :require => :member
+    permission :view_file_progress, :fntprogress => :index
+    permission :add_file_progress, :fntprogress => :telafiltroanexos
   end
   
 end

@@ -9,7 +9,7 @@ module Socketprogress
       sleep(1)
       puts("iniciando")
       @xmlTelaRequisicao = xmlRequisicao
-      s = connect("prg01.datacoper.com.br", porta)
+      s = connect(@settings['hostfnt'], porta)
       s.print(xmlRequisicao.length)
       s.gets()
       s.print(xmlRequisicao)
@@ -43,7 +43,7 @@ module Socketprogress
       sleep(1)
       puts("iniciando")
 
-      s = connect("prg01.datacoper.com.br", porta)
+      s = connect(@settings['hostfnt'], porta)
       s.print(xmlRequisicao.length)
       s.gets()
       s.print(xmlRequisicao)
@@ -74,7 +74,7 @@ module Socketprogress
       sleep(1)
       puts("iniciando")
       @debugxmlenvio = xmlRequisicao
-      s = connect("prg01.datacoper.com.br", porta)
+      s = connect(@settings['hostfnt'], porta)
       s.print(xmlRequisicao.length)
       s.gets()
       s.print(xmlRequisicao)
@@ -146,8 +146,12 @@ module Socketprogress
     end
 
     def getNewPortSocket
+      @settings = Setting.plugin_fntprogress
       retorno = 0
-      s = connect("prg01.datacoper.com.br", 3566)
+      if !@settings || @settings['hostfnt'] == "" || @settings['portfnt'] == "" || @settings['portfnt'] == "0"
+        raise "Favor ajustar as configurações do plugin antes de utilizar."
+      end
+      s = connect(@settings['hostfnt'], @settings['portfnt'])
       s.print("libera_porta")
       line = s.gets # Read lines from socket
       retorno = line.chop         # and print them
