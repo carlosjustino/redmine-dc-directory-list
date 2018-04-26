@@ -6,9 +6,9 @@ Este plugin faz a integração com o FNT(Progress).
 
 ### Fontes
 
-Apresentação e anexo dos fontes na solicitação referenciada no REDMINE.
-Criação de uma nota privada com os fontes que foram anexados ou removidos.
-Criação de uma ocorrencia com esta mesma movimentação no FNT.
+##### Apresentação e anexo dos fontes na solicitação referenciada no REDMINE.
+##### Criação de uma nota privada com os fontes que foram anexados ou removidos.
+##### Criação de uma ocorrencia com esta mesma movimentação no FNT.
 
 1. Botões adicionados nas Tarefas
 
